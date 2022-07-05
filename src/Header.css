@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  z-index: 100%;
+  top: 0;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.header_center {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+  z-index: 100%;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+.header_icon {
+  margin-right: 20px;
+}
+
+.input_button {
+  width: 50px !important;
+  background-color: white;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+
+.youtube-logo {
+  height: 23px;
+  align-items: center;
+  margin-left: 20px;
+}
+/* expand the input to full */
+.header_center > input {
+  flex: 1;
+  border: none;
+}

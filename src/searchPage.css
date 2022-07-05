@@ -1,0 +1,80 @@
+.searchPage {
+  flex: 0.8;
+}
+
+.serchPage_filter {
+  display: flex;
+  align-items: center;
+  color: #606060;
+  font-size: xx-small !important;
+}
+
+.serchPage_filter > h2 {
+  margin-left: 10px;
+}
+
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.channelRow_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelRow_text > p {
+  color: #606060;
+  font-size: small !important;
+}
+
+.channelRow_logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 10px 60px;
+  z-index: 0%;
+}
+
+.channelRow_text > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.videoRow {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 700px;
+  z-index: 0%;
+}
+
+.videoRow > img {
+  object-fit: contain;
+  width: 246px;
+  height: 138px;
+}
+
+.videoRow_text {
+  margin-left: 14px;
+}
+.videoRow_headline {
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow_desc {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #606060;
+}
+.videoRow_subs {
+  font-weight: bolder;
+  color: rgb(84, 157, 211);
+}
+
+.videoRow_sub {
+  background-color: lightgray;
+  padding: 2px;
+}

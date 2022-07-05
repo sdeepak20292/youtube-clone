@@ -1,0 +1,40 @@
+.sidebar {
+  flex: 0.2;
+}
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.sidebarRow_title {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.sidebarRow_icon {
+  height: 20px;
+  color: grey;
+}
+
+.sidebarRow:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebarRow:hover > .sidebarRow_icon {
+  color: red;
+}
+.sidebarRow:hover > .sidebarRow_title {
+  font-weight: bold;
+}
+
+.sidebar > hr {
+  width: 20%;
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
